@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;800&display=swap');
+*{
+    font-family: 'Mulish', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* shared styles */
+.text-color{
+    color: rgba(19, 19, 24, 0.70);
+}
+
+/* header related styles */
+
+nav{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin: 50px auto;
+}
+.nav-logo{
+    display: flex;
+    gap: 15px;
+}
+.nav-logo img{
+    width: 48px;
+    height: 56.008px;
+}
+.nav-logo h2{
+    padding-top: 5px;
+    color: #131318;
+    font-size: 2.2rem;
+    font-weight: 800;
+}
+.nav-logo h2 span{
+    color: #FF5400;
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    padding-top: 20px;
+}
+nav ul li a{
+    color: var(--Dark-02, #424247);
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+nav ul li a span{
+    color: #FF5400;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.header-banner{
+    border-radius: 16px;
+    background-image:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 90%;
+    height: 600px;
+    margin: 30px auto;
+    background-position: center;
+    background-size: cover;
+}
+.banner-content h2{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 70px;
+}
+.banner-content p{
+    color: #FFF;
+    width: 800px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 162.5%
+}
+.banner-input{
+    width: 60%;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+    padding: 16px;
+}
+.banner-input input{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FFF;
+    text-align: center;
+}
+.sub-input{
+    display: inline-flex;
+    padding: 12x;
+    align-items: flex-start;
+    gap: 110px;
+}
+.btn{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+}
+/* main styles */
+
+
+/* responsive related styles */
+@media screen and (max-width: 600px) {
+    nav{
+        display: block;
+        width: 100%;
+    }
+    .nav-logo{
+        width: 20px;
+        height: 30px;
+        margin-left: 120px;
+    }
+    .nav-logo h2{
+        padding-top: 15px;
+        font-size: 1.2rem;
+        display: flex;
+        gap: 8px;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        text-align: center;
+    }
+    nav ul li a{
+        font-size: 1rem;
+    }
+    .header-banner{
+        padding-bottom: 20px;
+    }
+    .banner-content h2{
+        font-size: 22px;
+        font-weight: 800;
+    }
+    .banner-content p{
+        width: 304px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+    }
+    .sub-input{
+        display: flex;
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+}
