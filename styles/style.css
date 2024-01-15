@@ -149,6 +149,152 @@ nav ul li a span{
     font-weight: 800;
     font-size: 1.2rem;
 }
+/* destination related styles */
+.destination{
+    width: 90%;
+    margin: 100px auto;
+}
+.destination-txt h2{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.destination-txt p{
+    color: rgba(19, 19, 24, 0.70);
+    width: 700px;
+    text-align: center;
+    margin: 30px auto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.sub-class1{
+    width: 70%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.sub-class2{
+    width: 70%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.sub-class3{
+    width: 70%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.img1{
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 5.png'), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img2{
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 8.png'), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img3{
+    width: 374px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 6.png'), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img4{
+    width: 474px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 7.png'), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img5{
+    width: 274px;
+    height: 286px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 9.png'), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img6{
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 11.png'), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img7{
+    width: 573px;
+    height: 300px;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/Rectangle\ 10.png'), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img1 p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    padding-top: 135px;
+}
+.img2 p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    padding-top: 135px;
+}
+.img3 p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    padding-top: 135px;
+}
+.img4 p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    padding-top: 135px;
+}
+.img5 p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    padding-top: 135px;
+}
+.img6 p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    padding-top: 135px;
+}
+.img7 p {
+    color: #FFF;
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 800;
+    padding-top: 135px;
+}
+
+/* Why choose us related styles */
 
 /* responsive related styles */
 @media screen and (max-width: 600px) {
@@ -190,9 +336,8 @@ nav ul li a span{
         font-weight: 400;
         line-height: 21px;
     }
-    .sub-input, .Tour{
+    .sub-input, .Tour, .sub-class1, .sub-class2, .sub-class3{
         display: flex;
-        padding: 16px;
         flex-direction: column;
         align-items: center;
         gap: 16px;
@@ -202,5 +347,25 @@ nav ul li a span{
     }
     .btn2{
         margin-top: 20px;
+    }
+    .destination-txt h2{
+        font-size: 20px;
+    }
+    .destination-txt p{
+        width: 70%;
+        font-size: 14px;
+    }
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7{
+        width: 400px;
+        height: 200px;
+    }
+    .sub-class1 p {
+        padding-top: 80px;
+    }
+    .sub-class2 p {
+        padding-top: 80px;
+    }
+    .sub-class3 p {
+        padding-top: 80px;
     }
 }
