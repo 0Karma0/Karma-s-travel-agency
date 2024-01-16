@@ -412,6 +412,120 @@ nav ul li a span{
     padding-top: 25px;
     padding-left: 25px;
 }
+/* Discount and deals related styles */
+
+.discount-content{
+    width: 90%;
+    margin: 100px auto;
+}
+.deals-txt h2{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.deals-txt p{
+    width: 700px;
+    margin: 30px auto;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.deals-img1{
+    height: 550px;
+    border-radius: 16px;
+    background: url('../Images/Group\ 39.png'), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    padding-top: 120px;
+}
+.deals-img2{
+    height: 550px;
+    border-radius: 16px;
+    background: url('../Images/Group\ 40.png'), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    padding-top: 120px;
+}
+.sub-deals1{
+    margin-left: 1050px;
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.sub-deals2{
+    margin-left: 80px;
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+}
+.sub-deals1 h3{
+    padding-top: 50px;
+    padding-left: 30px;
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.sub-deals2 h3{
+    padding-top: 50px;
+    padding-left: 30px;
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.sub-deals1 p{
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.sub-deals2 p{
+    padding-top: 30px;
+    padding-left: 30px;
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.sub-deals1 button{
+    margin-left: 30px;
+}
+.sub-deals2 button{
+    margin-left: 30px;
+}
+.sub-deals1 span{
+    color: #FF5400;;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.sub-deals2 span{
+    color: #FF5400;;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+.btn3{
+    margin-top: 40px;
+    margin-left: 750px;
+    width: 210px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
 /* responsive related styles */
 @media screen and (max-width: 600px) {
     nav{
@@ -488,4 +602,27 @@ nav ul li a span{
         width: auto;
         height: 300px;
     }
+    .sub-deals1, .sub-deals2{
+        margin: 10px auto;
+        padding: auto;
+        padding-bottom: 120px;
+        padding-right: 30px;
+        width: 350px;
+        height: 300px;
+        text-align: center;
+    }
+    .btn3{
+        margin-left: 160px;
+    }
+    .deals-txt h2{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .deals-txt p{
+        width: 400px;
+        text-align: center;
+        font-size: 1rem;
+        line-height: 24px;
+    }
+    
 }
