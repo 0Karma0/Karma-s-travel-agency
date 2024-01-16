@@ -104,7 +104,7 @@ nav ul li a span{
 }
 /* main styles */
 
-/* Tour styles */
+/* Tour related styles */
 .Tour{
     width: 90%;
     display: flex;
@@ -296,6 +296,122 @@ nav ul li a span{
 
 /* Why choose us related styles */
 
+.why-choose-us{
+    width: 90%;
+    margin: 100px auto;
+}
+.why-choose-us-txt h2 {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.why-choose-us-txt p {
+    width: 650px;
+    margin: 25px auto;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.sub-bimg{
+    width: 70%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.bimg1{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    background: rgba(251, 181, 99, 0.05);
+}
+.bimg1:hover{
+    border: 1px solid rgba(251, 181, 99, 0.20);
+}
+.bimg2{
+    width: 573px;
+    height: 284px;;
+    border-radius: 16px;
+    background: rgba(41, 206, 246, 0.05);
+}
+.bimg2:hover{
+    border: 1px solid rgba(41, 206, 246, 0.20);
+}
+.bimg3{
+    margin: 20px auto;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    background: rgba(233, 68, 68, 0.05);
+}
+.bimg3:hover{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+}
+.bimg1 img{
+    width: 64px;
+    height: 64px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.bimg1 h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.bimg1 p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.bimg2 img{
+    width: 64px;
+    height: 64px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.bimg2 h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.bimg2 p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.bimg3 img{
+    width: 64px;
+    height: 64px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.bimg3 h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+.bimg3 p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 25px;
+    padding-left: 25px;
+}
 /* responsive related styles */
 @media screen and (max-width: 600px) {
     nav{
@@ -323,20 +439,20 @@ nav ul li a span{
         font-size: 1rem;
     }
     .header-banner{
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
     .banner-content h2{
         font-size: 22px;
         font-weight: 800;
     }
     .banner-content p{
-        width: 304px;
+        width: 400px;
         text-align: center;
         font-size: 14px;
         font-weight: 400;
         line-height: 21px;
     }
-    .sub-input, .Tour, .sub-class1, .sub-class2, .sub-class3{
+    .sub-input, .Tour, .sub-class1, .sub-class2, .sub-class3, .sub-bimg{
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -367,5 +483,9 @@ nav ul li a span{
     }
     .sub-class3 p {
         padding-top: 80px;
+    }
+    .bimg3{
+        width: auto;
+        height: 300px;
     }
 }
