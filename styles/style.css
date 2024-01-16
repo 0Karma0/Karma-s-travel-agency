@@ -517,13 +517,89 @@ nav ul li a span{
 }
 .btn3{
     margin-top: 40px;
-    margin-left: 750px;
+    margin-left: 775px;
     width: 210px;
     height: 52px;
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
     font-size: 1.25rem;
+    font-weight: 800;
+}
+/* news letter related styles */
+.News-letter{
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    gap: 50px;
+}
+.news-content{
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.news-content h2{
+    padding-top: 30px;
+    padding-left: 40px;
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.news-content p {
+    padding-top: 20px;
+    padding-left: 40px;
+    color: #5A5A5D;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 26px;
+    width: 350px;
+}
+.news-content input {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.news-content hr{
+    width: 393px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.btn4{
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.news-img{
+    width: 1200px;
+    height: 422px;
+    border-radius: 16px;
+    background: url('../Images/Rectangle\ 8\ \(1\).png'), lightgray 50% / cover no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.btn5{
+    margin-left: 860px;
+    margin-top: 255px;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 32px;
     font-weight: 800;
 }
 /* responsive related styles */
@@ -566,20 +642,20 @@ nav ul li a span{
         font-weight: 400;
         line-height: 21px;
     }
-    .sub-input, .Tour, .sub-class1, .sub-class2, .sub-class3, .sub-bimg{
+    .sub-input, .Tour, .sub-class1, .sub-class2, .sub-class3, .sub-bimg, .News-letter{
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 16px;
+    }
+    .why-choose-us-txt p{
+        width: 309px;
     }
     .tour-txt{
         width: 95%;
     }
     .btn2{
         margin-top: 20px;
-    }
-    .destination-txt h2{
-        font-size: 20px;
     }
     .destination-txt p{
         width: 70%;
@@ -624,5 +700,16 @@ nav ul li a span{
         font-size: 1rem;
         line-height: 24px;
     }
-    
+    .news-img{
+        width: 480px;
+        height: 365px;
+    }
+    .btn5{
+        margin-left: 261px;
+        width: 214.023px;
+        height: 79.268px;
+        border-radius: 10.569px;
+        color: #FFF;
+        font-size: 21.138px;
+    }
 }
